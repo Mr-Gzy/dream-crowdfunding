@@ -3,7 +3,7 @@
 框架 
     SpringMVC、Spring、Mybatis、Maven、jQuery、Bootstrap、zTree、SpringSecurity
 规范 
-	包名起名的原则： 域名的反写(com.yuxin) + 项目名称(crowdfunding) + 模块名称(member) + 程序类型名称(bean)
+	包名起名的原则： 域名的反写(com.yuxin) + 项目名称(dream-crowdfunding) + 模块名称(member) + 程序类型名称(bean)
 	Bean、Controller/Handler、UserService/ServiceImpl、Dao/Mapper、Util、Filter、Listener、Test、Servlet、Exception
 
 基础环境-Maven工程依赖管理：垂直拆分项目，各层导入自己需要的依赖
