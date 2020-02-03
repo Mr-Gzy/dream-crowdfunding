@@ -1,0 +1,15 @@
+工具
+  JDK版本 - 1.8、IDEA、Linux (CentOS7)部署环境、MySQL 5.7、Tomcat8.5、Redis3.2.5、字符编码 UTF-8
+框架 
+    SpringMVC、Spring、Mybatis、Maven、jQuery、Bootstrap、zTree、SpringSecurity
+规范 
+	包名起名的原则： 域名的反写(com.yuxin) + 项目名称(crowdfunding) + 模块名称(member) + 程序类型名称(bean)
+	Bean、Controller/Handler、UserService/ServiceImpl、Dao/Mapper、Util、Filter、Listener、Test、Servlet、Exception
+
+基础环境-Maven工程依赖管理：垂直拆分项目，各层导入自己需要的依赖
+  dream-crowdfunding-parent 父工程,聚合其他工程(pom) 
+  dream-crowdfunding-main Web工程,存放所有页面,框架配置文件(war) 
+  dream-crowdfunding-manager-impl 后台管理系统,存放控制器类,业务层实现类(jar) ，Dao映射文件
+  dream-crowdfunding-manager-api 后台管理系统,存放业务层接口和DAO层接口(jar) 
+  dream-crowdfunding-common 存放所有模块所需要的公共类(jar) 
+  dream-crowdfunding-bean 存放所有模块的实体类(jar)
